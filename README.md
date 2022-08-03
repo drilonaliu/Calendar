@@ -16,8 +16,7 @@ The way this algorithm works is quite simple. What it does is that it fills a fo
 
 ![image](https://user-images.githubusercontent.com/84543584/182505256-8b9b2e63-d163-4077-8ca2-993582cc2dc2.png)
 
-
- We initialize a counter *day* starting from $1 -(startDay-1)$, and increment it while visiting the elements of the matrix. 
+We initialize a counter *day* starting from $1 -(startDay-1)$, and increment it while visiting the elements of the matrix. The algorithm inside the method *getMonthMatrix* goes:
 
         int day = 1 - (startDay - 1);
         for (int i = 0; i < 6; i++) {
@@ -31,3 +30,4 @@ The way this algorithm works is quite simple. What it does is that it fills a fo
             }
         }
 
+And this is pretty much it. You can use this model class so that you can come up with a different visual appearnce for a calendar, whether that may be java or with html,css and js. I'd be happy to see them. 
