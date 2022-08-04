@@ -30,4 +30,4 @@ We initialize a counter *day* starting from $1 -(startDay-1)$, and increment it 
             }
         }
 
-And this is pretty much it. You can use this model class so that you can come up with a different visual appearnce for a calendar, whether that may be java or with html,css and js. I'd be happy to see them. 
+And this is pretty much it. You can use this model class so that you can come up with a different visual appearance for a calendar, whether that may be java or HTML and CSS and JS. 
